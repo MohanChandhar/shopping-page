@@ -1,0 +1,485 @@
+*{
+    margin: 0;
+    padding: 0;
+    background:#141414;
+    color:#828282;  
+    font-family: Satoshi;
+}
+#body{
+    display: flex;
+   
+}
+/* --------css for sidebar--------------- */
+#sidebar{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    border: 1px solid rgb(190, 186, 186) ;
+    align-items: center ;
+    width: 6%;
+    height: 100vh;
+    margin-left: 19px;
+    border-radius: 10px;
+}
+#sidebar img{
+    width: 36px;
+    height: 36px;
+    top: 29px;
+    left: 26px;
+    padding: 15px; 
+}
+/* -------css for welcomepage-------- */
+#welcome{
+    height: 96vh;
+    width:85%;
+    border: 1px solid rgb(190, 186, 186) ;
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-top: 20px;
+    padding-top: 25px;
+    padding-left: 30px;
+}
+#welcome h1{
+    color:  #833991;
+    margin-left: 15px;
+    font-family: Satoshi;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 60.75px;
+    letter-spacing: -0.02em;
+    text-align: left;
+
+}
+#welcome h3{
+    margin-left: 15px;
+    font-family: Satoshi;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 60.75px;
+    letter-spacing: -0.02em;
+    text-align: left;
+
+}
+#container{
+    display: flex;
+    
+}
+#container div{
+    width: 236px;
+    height: 155px;
+    border: 1px solid rgb(190, 186, 186);
+    background-color: #292929;
+    margin-top: 20px;
+    margin-left: 15px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+#container div p{
+    color: white;
+    font-family: Satoshi;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 33.75px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    background-color: #292929;
+}
+#container  #img{
+    background-color: #170B1C;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    margin-top: 40px;
+    margin-left: 180px;
+}
+#img img{
+    background-color: #170B1C;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    border-radius: 15px;
+    height: 18px;
+}
+/*---------- css for searchbar&input---------- */
+#searchbar{
+   display: flex;
+   justify-content: space-between;
+   height: 45px;
+   width: 630px;
+   border: 1px solid rgb(190, 186, 186);
+   background-color: black;
+   border-radius: 20px;
+   margin-top: 210px;
+   margin-left: 90px;
+}
+#ltext{
+    display: flex;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color:black;
+    
+}
+#ltext img{
+    background-color: black;
+    height: 20px;
+    margin-top: 4px;
+}
+#ltext input{
+    width: 450px;
+    background-color: black;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding-left: 5px;
+    font-family: Satoshi;
+    font-size: 14px;
+    font-weight: 400;
+    
+  
+}
+#inpbtn{
+    display: flex;
+    background-color: #FAF9F6;
+    height: 32px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+}
+#rtext{
+    display: flex;
+    background-color: white;
+    width: 80px;
+    height: 30px;
+    margin-top: 8px;
+    border-radius: 20px;
+    margin-right: 10px;
+    
+}
+#rtext img{
+    background-color:transparent;
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 6px;
+    
+}
+#rtext p{
+    background-color: #FAF9F6;
+    height: 25px;
+    color: black;
+    font-size: 20px;
+    padding-top: 3px;
+}
+a{
+    text-decoration: none;
+}
+#shop{
+    display: flex;
+    
+}
+#rshop{
+    height: 98vh;
+    width: 85%;
+    border: 1px solid rgb(190, 186, 186);
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+#rshop h3{
+    font-family: Satoshi;
+    font-size: 28px;
+    font-weight: 500;
+    margin-left: 35px;
+    text-align: left;
+    color: #FAF9F6;
+
+}
+/* -----css for shoptab for welcome window------- */
+#shoptab{
+    display: flex;
+}
+#cont1{
+    height: 94vh;
+    width: 83%;
+    border: 1px solid rgb(190, 186, 186);
+    display: flex;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-left: 30px;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+#cont2 p{
+    margin-left: -135px;
+    cursor: pointer;
+}
+#bottom{
+    margin-top: 300px;
+    margin-left: -70px;
+}
+/*---------- css for searchresult and shopping page------- */
+#content1{
+    display: flex;
+    margin-left: 15px;
+    
+}
+#content1 p{
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 30px;
+    width: 110px;
+    border: 1px solid rgb(190, 186, 186);
+    border-radius: 20px; 
+    background: #2C2C2C;
+    color: #FAF9F6;
+    font-family: Satoshi;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 29px;
+    text-align: center;
+    cursor: pointer;
+}
+#content2{
+    display: flex;
+    margin-top: 30px;
+    
+}
+#box{
+    width: 280px;
+    height: 307px;
+    top: 222px;
+    left: 197px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+#box .pic1{
+    width: 280px;
+    height: 307px;
+    border-radius: 20px;
+}
+#layer{
+    width: 250px;
+    height: 307px;
+    border-radius: 20px;
+    margin-top: -300px;
+    margin-left: 10px;
+}
+#layer .pic2{
+    border-radius: 50%;
+    width: 43px;
+    height: 43px;
+    top: 241.23px;
+    left: 216.23px;
+   
+}
+#box1{
+    margin-top: 100px;
+    
+}
+#box1 p{
+    color: #FAF9F6;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: left;
+}
+#box1 h4{
+    color: white;
+    font-size:15px;
+    text-align: left;
+
+}
+#box1 img{
+    background: transparent;
+}
+.pic3{
+    height: 40px;
+    border-radius: 50%;
+    width: 50px;
+    
+   
+}
+#rupee{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+#rupee p{
+    font-size: 25px;
+    background-color: transparent;
+    font-weight: bolder;
+}
+#rupee button{
+    height: 30px;
+    width: 80px;
+    border-radius: 20px;
+    background: transparent;
+    border: 0.5px solid white;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+}
+#btn{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 380px;
+    height: 40px;
+    width: 180px;
+    border-radius: 10px;
+    border: 1px solid white;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    cursor: pointer;
+}
+#btn p{
+    font-size: 18px;
+    color: #FAF9F6;
+    margin-left: 5px;
+}
+#input{
+    margin-top: -155px;
+}
+/* ------css for final page-------- */
+#final{
+    height: 100%;
+    width: 100%;
+    display: flex;  
+}
+#center{
+    height: 98vh;
+    width: 60%;
+    border-radius: 10px;
+    border: 1px solid rgb(190, 186, 186);
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#center h3{
+    color: #FAF9F6;
+    font-family: Satoshi;
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: -0.02em;
+    text-align: left;   
+
+}
+#sideimg{
+    display: flex;
+    height: 410px;
+    margin-top: 20px;
+    
+}
+#imga{
+    width: 140px;
+    height: 160px;
+    gap: 0px;
+    border-radius: 9px 0px 0px 0px;
+    opacity: 0px;
+
+}
+#imga img{
+    height: 60%;
+    width: 90%;
+    border-radius: 10px;
+}
+#imga1 img{
+    height: 410px;
+    width: 400px;
+    border-radius: 20px;
+    
+    
+}
+#lcontent{
+    height: 95vh;
+    width: 25%;
+    border: 1px solid rgb(190, 186, 186);
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 20px;
+    padding-top: 30px;
+    text-align: center;
+}
+#lcontent h4{
+    color: white;
+    font-family: Satoshi;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 39.49px;
+    text-align: center;
+}
+#osr{
+    display: flex;
+    width: 290px;
+    height: 35px;
+    top: 195.94px;
+    padding-left: 20px;
+
+}
+#osr button{
+    display: flex;
+    width: 103px;
+    height: 35px;
+    background: transparent;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    cursor: pointer;
+    border: none; 
+}
+#osr button p{
+   padding-left: 10px;
+   background: transparent;
+}
+#osr button p:hover{
+    background-color: #FAF9F6;
+}
+#osr button:hover{
+    background-color: #FAF9F6;
+    border-radius: 10px;
+    height: 30px;
+    color: black;
+}
+#cont3{
+    width: 309px;
+    height: 331px;
+    top: 262px;
+    left: 33px;
+    margin-top: 20px;
+}
+#cont3 h3{
+    color: #cdcbc9;
+    width: 174.05px;
+    height: 35px;
+    top: 262px;
+    left: 33px;
+    margin-left: 20px;
+}
+#cont3 p{
+    width: 250px;
+    height: 275px;
+    top: 318px;
+    left: 33px;
+    color: #dcdbd8;
+    text-align: justify;
+    margin-left: 30px;
+}
+#button1{
+    width: 250px;
+    height: 40px;
+    top: 829px;
+    left: 32px;
+    border-radius: 10px;
+    background-color: #FAF9F6;
+    color: black;
+}
+
+#searchbars{
+    width: 100%;
+    margin-top: -180px;
+    padding-left: -100px;
+}     
